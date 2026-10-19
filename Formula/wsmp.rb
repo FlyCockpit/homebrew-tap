@@ -1,25 +1,25 @@
 class Wsmp < Formula
   desc "Command-line relay client for WS Model Proxy."
   homepage "https://github.com/FlyCockpit/ws-model-proxy"
-  version "0.4.0"
+  version "0.4.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.0/wsmp-aarch64-apple-darwin.tar.xz"
-      sha256 "344709666e93cb459407970f9159650014f53c96d0499866fdca840d3db623b2"
+      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.1/wsmp-aarch64-apple-darwin.tar.xz"
+      sha256 "96252b727a0756ce15fbf8c560d3f75e80742663b31a07ccf99049e65b2e3e73"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.0/wsmp-x86_64-apple-darwin.tar.xz"
-      sha256 "6b4d7b476dbc3833a34529295b7c42e011e31d0f06a7ea56aefc9cdf6cfd950f"
+      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.1/wsmp-x86_64-apple-darwin.tar.xz"
+      sha256 "c4b67a7e2cd071103417777b1ec365249ea1baef4c06a0a65043dda704c21d3e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.0/wsmp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "29de83c1c5b824ad20da4155a32cebe1539b07dc8f8e4e370e28492570b04deb"
+      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.1/wsmp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "0b8c5187aa102fdf200f3ab65f1f6dc458474bdd596858a463842fbedc1bd843"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.0/wsmp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d61fdac066c1b92c8c56866fd27a0f1181395267f74d106924711b7eb3cc0360"
+      url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.1/wsmp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0c80280889f79b684eede0df1bbc8b1df7b5c513d9fe2cb81d720ed0517e6b53"
     end
   end
   license "MIT"
