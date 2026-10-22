@@ -5,21 +5,21 @@ class Wsmp < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.2/wsmp-aarch64-apple-darwin.tar.xz"
-      sha256 "4b6da8727df4aaa957d28f472912c9fe2eae57dec438a2c4ddeb888650b458fc"
+      sha256 "e86edbf5af1683bd1ac9b3ec7af51f478435ce63a194792e5eb80ee63c1d9c7c"
     end
     if Hardware::CPU.intel?
       url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.2/wsmp-x86_64-apple-darwin.tar.xz"
-      sha256 "b398baf96b18a8691eacb600c34d8f521be8af86431cf59dd877456b9dfcea8e"
+      sha256 "065814d0278c8c30685353fce0ac592177c65990e0b097910f1f52e725cf7e2a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.2/wsmp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "64fd717b792c90320131dcae3a8507366a7ab8af9e0c7d5b818d61fe7189c9a2"
+      sha256 "6273123ec0f67a2b742e81a831c4610d55f3c97c4855d386669237d1141e2608"
     end
     if Hardware::CPU.intel?
       url "https://github.com/FlyCockpit/ws-model-proxy/releases/download/v0.4.2/wsmp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5a81044ecc72bdc5024c6276620cfd98e18fbf921ca53c6dbf942cfd559c5b06"
+      sha256 "2edd878cd4843583f1a0cbc88ae94bec0d7a87424a0decd70cb52b55fcbd2732"
     end
   end
   license "MIT"
